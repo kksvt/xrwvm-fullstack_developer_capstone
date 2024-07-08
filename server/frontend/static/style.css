@@ -13,6 +13,10 @@ img{
   margin-bottom: 1%;
 }
 
+.card-text {
+  text-align: justify;
+}
+
 .row{
   display: flex;  
   flex: 1;
@@ -39,6 +43,10 @@ img{
   text-align: center;
   margin:20px;
   padding:5px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .homepage_links{
@@ -123,4 +131,13 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.vertical-line {
+  border-right: 10px solid #ccc; /* Border style for the vertical line */
+  height: 100%; /* Ensures the line stretches to the height of the column */
+}
+
+p {
+  line-height: 10px;
 }
